@@ -10,7 +10,7 @@ var uglify = require('gulp-uglify');
 
 // Lint Task
 gulp.task('lint', function() {
-    return gulp.src('src/js/*.js')
+    return gulp.src('src/js/scripts.js')
         .pipe(jshint())
         .pipe(jshint.reporter('default'));
 });
